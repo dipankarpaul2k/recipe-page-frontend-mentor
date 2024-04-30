@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Recipe page</title>
+
+    <!-- Google font links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- <style>
+      body {
+        color: #302d2c;
+      }
+    </style> -->
+  </head>
+  <body
+    class="font-Outfit text-gray-500 text-base font-medium lg:py-[8rem] lg:px-[10rem] lg:bg-[#F3E5D8] xl:px-[20rem]"
+  >
+    <main class="main lg:p-10 min-h-screen w-full bg-[#fff] rounded-3xl">
+      <!-- hero image -->
+      <div
+        class="h-2/5 w-full lg:rounded-xl overflow-hidden"
+        aria-label="recipe image"
+      >
+        <img
+          class="h-full w-full object-cover"
+          src="./assets/images/image-omelette.jpeg"
+          alt="omelette image"
+        />
+      </div>
+
+      <div class="px-7 sm:px-10 lg:px-0" aria-label="page recipe content">
+        <!-- main heading -->
+        <h1
+          class="text-4xl lg:text-5xl text-gray-800 font-YoungSerif font-medium mt-10 mb-7"
+          aria-label="recipe name"
+        >
+          Simple Omelette Recipe
+        </h1>
+
+        <p aria-label="small recipe description">
+          An easy and quick dish, perfect for any meal. This classic omelette
+          combines beaten eggs cooked to perfection, optionally filled with your
+          choice of cheese, vegetables, or meats.
+        </p>
+
+        <!-- Preparation time -->
+        <section
+          class="bg-[#fff5fa] my-8 p-5 lg:p-6 rounded-xl leading-loose"
+          aria-label="preparation section"
+        >
+          <h3 class="text-[#7b284f] text-xl font-semibold">Preparation time</h3>
+
+          <ul class="list-disc list-inside pl-3" aria-label="preparation section list">
+            <li>
+              <span class="text-gray-600 font-bold ml-3">Total:</span>
+              <span> Approximately 10 minutes</span>
+            </li>
+            <li>
+              <span class="text-gray-600 font-bold ml-3">Preparation:</span>
+              <span> 5 minutes</span>
+            </li>
+            <li>
+              <span class="text-gray-600 font-bold ml-3">Cooking:</span>
+              <span> 5 minutes</span>
+            </li>
+          </ul>
+        </section>
+
+        <!-- Ingredients -->
+        <section class="my-7 leading-loose" aria-label="ingredients section">
+          <h2 class="font-YoungSerif text-3xl text-[#7F452E]">Ingredients</h2>
+          <ul class="list-disc list-inside pt-4 pl-2" aria-label="ingredients section list">
+            <li><span class="ml-3">2-3 large eggs</span></li>
+            <li><span class="ml-3">Salt, to taste</span></li>
+            <li><span class="ml-3">Pepper, to taste</span></li>
+            <li><span class="ml-3">1 tablespoon of butter or oil</span></li>
+            <li>
+              <span class="ml-3"
+                >Optional fillings: cheese, diced vegetables, cooked meats,
+                herbs</span
+              >
+            </li>
+          </ul>
+        </section>
+
+        <!-- divider -->
+        <hr aria-label="section divider" />
+
+        <!-- Instructions -->
+        <section class="my-7 leading-loose" aria-label="instructions section">
+          <h2 class="font-YoungSerif text-3xl text-[#7F452E]">Instructions</h2>
+          <ol class="list-decimal list-inside pl-2 pt-4" aria-label="instructions section list">
+            <li>
+              <span class="text-gray-600 font-bold ml-4">Beat the eggs:</span>
+              <span>
+                In a bowl, beat the eggs with a pinch of salt and pepper until
+                they are well mixed. You can add a tablespoon of water or milk
+                for a fluffier texture.
+              </span>
+            </li>
+            <li>
+              <span class="text-gray-600 font-bold ml-4">Heat the pan: </span>
+              <span>
+                Place a non-stick frying pan over medium heat and add butter or
+                oil.
+              </span>
+            </li>
+            <li>
+              <span class="text-gray-600 font-bold ml-4"
+                >Cook the omelette:</span
+              >
+              <span>
+                Once the butter is melted and bubbling, pour in the eggs. Tilt
+                the pan to ensure the eggs evenly coat the surface.
+              </span>
+            </li>
+            <li>
+              <span class="text-gray-600 font-bold ml-4"
+                >Add fillings (optional):</span
+              >
+              <span>
+                When the eggs begin to set at the edges but are still slightly
+                runny in the middle, sprinkle your chosen fillings over one half
+                of the omelette.
+              </span>
+            </li>
+            <li>
+              <span class="text-gray-600 font-bold ml-4">Fold and serve:</span>
+              <span>
+                As the omelette continues to cook, carefully lift one edge and
+                fold it over the fillings. Let it cook for another minute, then
+                slide it onto a plate.
+              </span>
+            </li>
+            <li>
+              <span class="text-gray-600 font-bold ml-4">Enjoy:</span>
+              <span>
+                Serve hot, with additional salt and pepper if needed.</span
+              >
+            </li>
+          </ol>
+        </section>
+
+        <!-- divider -->
+        <hr aria-label="section divider" />
+
+        <!-- Nutrition -->
+        <section class="my-7 leading-loose" aria-label="nutrition section">
+          <h2 class="font-YoungSerif text-3xl text-[#7F452E]">Nutrition</h2>
+          <p class="my-3">
+            The table below shows nutritional values per serving without the
+            additional fillings.
+          </p>
+
+          <table class="table-auto w-full" aria-label="nutrition section table">
+            <tr class="border-b-2 table-row">
+              <td class="pl-8 py-3 text-left">Calories</td>
+              <td class="px-6 py-3 text-left text-[#7F452E] font-bold">
+                277kcal
+              </td>
+            </tr>
+            <tr class="border-b-2">
+              <td class="pl-8 py-3 text-left">Carbs</td>
+              <td class="px-6 py-3 text-left text-[#7F452E] font-bold">0g</td>
+            </tr>
+            <tr class="border-b-2">
+              <td class="pl-8 py-3 text-left">Protein</td>
+              <td class="px-6 py-3 text-left text-[#7F452E] font-bold">20g</td>
+            </tr>
+            <tr class="border-b-2">
+              <td class="pl-8 py-3 text-left">Fat</td>
+              <td class="px-6 py-3 text-left text-[#7F452E] font-bold">22g</td>
+            </tr>
+          </table>
+        </section>
+      </div>
+    </main>
+
+    <!-- Bottom links -->
+    <div class="text-sm text-center">
+      Challenge by
+      <a
+        class="text-blue-500 hover:text-blue-600"
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a
+        class="text-blue-500 hover:text-blue-600"
+        href="https://www.frontendmentor.io/profile/dipankarpaul2k"
+        target="_blank"
+        >Dipankar Paul</a
+      >.
+    </div>
+  </body>
+</html>
