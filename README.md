@@ -21,18 +21,24 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 <details>
 <summary>Desktop view</summary>
-<img
-  src="./screenshots/desktop-view.png"
-  alt="desktop view"
-/>
+<div align="center">
+  <img
+    src="./screenshots/desktop-view.png"
+    alt="desktop view"
+    height="600"
+  />
+</div>
 </details>
 
 <details>
 <summary>Mobile view</summary>
-<img
-  src="./screenshots/mobile-view.png"
-  alt="mobile view"
-/>
+<div align="center">
+  <img
+    src="./screenshots/mobile-view.png"
+    alt="mobile view"
+    height="600"
+  />
+</div>
 </details>
 
 
