@@ -21,12 +21,12 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 <details>
 <summary>Desktop view</summary>
-Desktop view
+![frontend-mentor-recipe-page-challenge-desktop-view](https://github.com/dipankarpaul2k/recipe-page-frontend-mentor/assets/136841290/d5369987-70fd-499e-8cf0-e906945c7938)
 </details>
 
 <details>
 <summary>Mobile view</summary>
-Mobile view
+![frontend-mentor-recipe-page-challenge-mobile-view](https://github.com/dipankarpaul2k/recipe-page-frontend-mentor/assets/136841290/11848725-3b0a-4e82-bf59-fb5c50844489)
 </details>
 
 
