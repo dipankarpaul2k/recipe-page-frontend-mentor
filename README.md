@@ -44,7 +44,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- [Solution URL]()
+- [Solution URL](https://www.frontendmentor.io/solutions/responsive-recipe-page-with-tailwind-css-zOw4BLQBhT)
 - [Live Site URL](https://deft-paprenjak-908d36.netlify.app/)
 
 ## My process
